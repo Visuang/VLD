@@ -9,6 +9,16 @@ This is the official repository for **VLD**, a novel framework designed for **Vi
 ---
 ## 🚀 Getting Started
 
+### 📁 Dataset 
+This project supports two benchmark datasets for Video-based Visible-Infrared Person Re-Identification: **VCM** and **BUPT**.
+
+- 📂 [VCM Dataset Download & Processing Instructions](https://github.com/VCM-project233/MITML)
+
+- 📂 [BUPT Dataset Download & Processing Instructions](https://github.com/dyhBUPT/BUPTCampus)
+
+
+
+
 ### 🏋️‍♂️ Training
 To train VLD on the **VCM** dataset:
 ```
@@ -19,7 +29,7 @@ To train VLD on the **BUPT** dataset:
 CUDA_VISIBLE_DEVICES=0 python main.py --mode train --dataset bupt  --pid_num 1074 --output_path logs/bupt
 ```
 
-## :car:Evaluation
+### :car:Evaluation
 To evaluate the model on the **VCM** dataset:
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --mode test --dataset vcm   --pid_num 500   --resume_test_path logs/vcm/models  --output_path logs/vcm_test
@@ -30,7 +40,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --mode test --dataset bupt  --pid_num 1074
 ```
 
 
-## 💾 Pretrained Models & Training Logs
+### 💾 Pretrained Models & Training Logs
 
 We provide pretrained weights and training logs for both datasets:
 
