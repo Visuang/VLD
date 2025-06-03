@@ -1,4 +1,4 @@
-# VLD: Video-Level Language-Driven Video-Based Visible-Infrared Person Re-Identification
+# Video-Level Language-Driven Video-Based Visible-Infrared Person Re-Identification
 
 This is the official repository for **VLD**, a novel framework designed for **Video-Based Visible-Infrared Person Re-Identification**.
 
