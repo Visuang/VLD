@@ -19,12 +19,3 @@ If you find VLD useful in your research, please consider citing:
   year={2025},
   publisher={IEEE}
 }
-
-
-
-
-
-
-
-
-
