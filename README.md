@@ -60,9 +60,11 @@ If you find VLD useful in your research, please consider citing:
 ```bibtex
 
 @article{li2025video,
-  title={Video-Level Language-Driven Video-Based Visible-Infrared Person Re-Identification},
+  title={Video-level language-driven video-based visible-infrared person re-identification},
   author={Li, Shuang and Leng, Jiaxu and Kuang, Changjiang and Tan, Mingpi and Gao, Xinbo},
   journal={IEEE Transactions on Information Forensics and Security},
+  volume={20},
+  pages={5505--5520},
   year={2025},
   publisher={IEEE}
 }
